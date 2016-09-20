@@ -1,0 +1,23 @@
+{
+  "name": "pacman_ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "three": "^0.80.1",
+    "three-collada-loader": "0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "watchify main.js -o assets/js/bundle.js -v",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pacman",
+    "typscript",
+    "universite",
+    "lorraine"
+  ],
+  "author": "",
+  "license": "ISC"
+}
